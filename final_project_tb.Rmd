@@ -21,6 +21,6 @@ knitr::opts_chunk$set(echo = TRUE)
 #### -Make modeling more modular to expedite tuning. 
 
 ###Timeline:
-#### 
+#### - I will prioritize refactoring cleaning the code where I read in and merge datsets first, and then move to develop specific scripts for plotting and modelling. I will have all refactored code completed by December 17 (or 11?)
 
 
