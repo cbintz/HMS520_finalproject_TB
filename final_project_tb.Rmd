@@ -12,6 +12,15 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Corinne Bintz, HMS 520 Fall 2021
 ## Final project
 
-## I will be pursuing project option 2: refactoring a piece of existing code. The goal of this project.... Detailed plans and timelines....
+### I will be pursuing project option 2: refactoring a piece of existing code. The goal of this project is to refactor code I've written working with the Farhat lab on investigating the relationship between health spending and rates of multidrug resistant tuberculosis over time. I would like to organize the code to be more modular, concise, and readable. 
+
+### Specific goals of my refactoring include:
+#### -Consolidate the way in which I read in and merge datasets.
+#### -Create and save a cleaned, final dataset to use for plotting and modeling.
+#### -Currently, I am working with two scripts, one with ~200 lines and one with ~900. I will organize the code to keep scripts to a maximum of ~350 lines and separate scripts out into data cleaning/merging, plotting, and modeling scripts.
+#### -Make modeling more modular to expedite tuning. 
+
+###Timeline:
+#### 
 
 
