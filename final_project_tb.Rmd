@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 #### -Currently, I am working with two scripts, one with ~200 lines and one with ~900. I will organize the code to keep scripts to a maximum of ~350 lines and separate scripts out into data cleaning/merging, plotting, and modeling scripts.
 #### -Make modeling more modular to expedite tuning. 
 
-###Timeline:
-#### - I will prioritize refactoring cleaning the code where I read in and merge datsets first, and then move to develop specific scripts for plotting and modelling. I will have all refactored code completed by the week of December 13th-17th, during which I will give a presentation of my project. 
+### Timeline:
+#### -I will prioritize refactoring cleaning the code where I read in and merge datsets first, and then move to develop specific scripts for plotting and modelling. I will have all refactored code completed by the week of December 13th-17th, during which I will give a presentation of my project. 
 
 
