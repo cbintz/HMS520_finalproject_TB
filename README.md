@@ -1,1 +1,1 @@
-# HMS520_finalproject_TB
+# HMS520 Final project: refactoring health financing and MDR-TB analysis 
