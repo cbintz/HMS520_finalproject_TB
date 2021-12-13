@@ -8,6 +8,6 @@ Problems:
 - Poor readibility
 
 New scripts:
-tb_data_prep_refactor.R: read in datasets, merge, clean, and save prepped dataset
-tb_model_refactor.R: read in prepped dataset, run mixed linear effects model, and save model results
-tb_visualization_refactor.R: read in prepped dataset and model results, create visualizations, and save figures
+- tb_data_prep_refactor.R: read in datasets, merge, clean, and save prepped dataset
+- tb_model_refactor.R: read in prepped dataset, run mixed linear effects model, and save model results
+- tb_visualization_refactor.R: read in prepped dataset and model results, create visualizations, and save figures
