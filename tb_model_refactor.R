@@ -45,6 +45,6 @@ mdr_exp_lab_time_above <- lmer(conf_rrmdr ~ exp_lab + (time|location_name), data
 save_model_results(mdr_exp_lab_time_above, 'mdr_exp_lab_time_above')
 
 #Model changes in MDR predicted by changes in lab expenditure, without lab_exp*time interaction, countries below median wealth per capita
-mdr_exp_lab_time_below <- lmer(conf_rrmdr ~ exp_lab + (time|iso3), data=tb_df_no_na[total_wealth_per_capita <current_median])
+mdr_exp_lab_time_below <- lmer(conf_rrmdr ~ exp_lab + (time|location_name), data=tb_df_no_na[total_wealth_per_capita <current_median])
 save_model_results(mdr_exp_lab_time_below, 'mdr_exp_lab_time_below')
 
